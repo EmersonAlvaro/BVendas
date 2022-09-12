@@ -9,11 +9,12 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { SlideshowComponent } from './slideshow/slideshow.component';
 import { PromotionComponent } from './promotion/promotion.component';
+import { CategoryComponent } from './category/category.component';
 
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule, MatIconModule ],
-  declarations: [ AppComponent, HelloComponent, HeaderComponent, FooterComponent, SlideshowComponent, PromotionComponent,  ],
+  declarations: [ AppComponent, HelloComponent, HeaderComponent, FooterComponent, SlideshowComponent, PromotionComponent, CategoryComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
