@@ -8,11 +8,12 @@ import { MatIconModule } from '@angular/material/icon';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { SlideshowComponent } from './slideshow/slideshow.component';
+import { PromotionComponent } from './promotion/promotion.component';
 
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule, MatIconModule ],
-  declarations: [ AppComponent, HelloComponent, HeaderComponent, FooterComponent, SlideshowComponent ],
+  declarations: [ AppComponent, HelloComponent, HeaderComponent, FooterComponent, SlideshowComponent, PromotionComponent,  ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
